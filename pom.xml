@@ -14,7 +14,7 @@
     </parent>
     <groupId>be.intecbrussel</groupId>
     <artifactId>petclinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>petclinic</name>
     <description>Demo project for Spring Boot</description>
 
@@ -40,8 +40,12 @@
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
                     <goals>install</goals>
+
                 </configuration>
             </plugin>
+
+
+
 
         </plugins>
 
@@ -50,7 +54,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:crazyheinz/petclinic.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>petclinic-0.0.2</tag>
   </scm>
 
 
